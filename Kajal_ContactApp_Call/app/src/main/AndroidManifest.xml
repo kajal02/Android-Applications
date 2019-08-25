@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kajal.kajal_contactapp" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddCustomerActivity"
+            android:label="@string/title_activity_add_customer" >
+        </activity>
+        <activity
+            android:name=".ListActivityDelete"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name=".ContactDetailActivity"
+            android:label="@string/title_activity_contact_detail" >
+        </activity>
+        <activity
+            android:name=".SpeedDialActivity"
+            android:label="@string/title_activity_speed_dial" >
+        </activity>
+        <activity
+            android:name=".ListSpeedDialActivity"
+            android:label="@string/title_activity_list_speed_dial" >
+        </activity>
+    </application>
+
+</manifest>

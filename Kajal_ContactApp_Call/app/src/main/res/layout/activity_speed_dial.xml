@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kajal.kajal_contactapp.SpeedDialActivity">
+
+    <include layout="@layout/app_bar1"
+        android:id="@+id/speed_tool_bar" />
+
+    <GridView
+        android:layout_below="@id/speed_tool_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:numColumns="3"
+        android:columnWidth="90dp"
+        android:stretchMode="spacingWidthUniform" />
+
+</RelativeLayout>
